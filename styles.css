@@ -4,12 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-p,
-h1,
-h2,
-h3 {
-  font-size: 1rem;
-}
 
 /* General Styles */
 body {
@@ -24,6 +18,7 @@ article {
   margin: 1rem auto;
   background-color: #fff;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* Utility Class */
@@ -34,17 +29,31 @@ article {
 /* Post Header styling */
 header {
   padding: 5px 3px 0 3px;
+  margin-bottom: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .header-leftside {
   display: grid;
-  grid-template-rows: 2fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.header-leftside i {
+  font-size: 1.3rem;
+  position: relative;
+  top: 6px;
+}
+.header-leftside h1 {
+  font-size: 0.9rem;
 }
 .header-leftside h2 {
   grid-column-start: 2;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+.header-rightside {
+  font-size: 1.7rem;
 }
 
 /* Post Actions Section */
@@ -52,19 +61,21 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 1rem;
+  padding: 0.25rem 1rem;
+}
+.postActions-leftside,
+.postActions-rightside {
+  font-size: 1.2rem;
 }
 
 /* Post Caption Section */
 .postCaptionSection {
-  padding: 1rem;
+  padding: 0rem 1rem 1rem 1rem;
 }
-
 .postMetaData {
   display: block;
   margin: 1rem 0;
 }
-
 .postCaptionContent {
   display: block;
 }
