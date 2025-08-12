@@ -36,11 +36,11 @@ header {
   align-items: center;
 }
 .header-leftside {
-  display: grid;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .header-leftside i {
-  font-size: 1.3rem;
   position: relative;
   top: 6px;
 }
@@ -48,12 +48,8 @@ header {
   font-size: 0.9rem;
 }
 .header-leftside h2 {
-  grid-column-start: 2;
   font-size: 0.8rem;
   font-weight: normal;
-}
-.header-rightside {
-  font-size: 1.7rem;
 }
 
 /* Post Actions Section */
@@ -62,10 +58,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   padding: 0.25rem 1rem;
-}
-.postActions-leftside,
-.postActions-rightside {
-  font-size: 1.2rem;
 }
 
 /* Post Caption Section */
