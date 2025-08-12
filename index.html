@@ -3,16 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Import Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
     <title>Instagram Post Layout</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <article>
-      <div class="header-leftside">
-        <img src="https://placehold.co/50x50" alt="icon" />
-        <h1>Post Title</h1>
-        <h2>Author</h2>
-      </div>
+      <header>
+        <div class="header-leftside">
+          <!-- HTML5 Logo Icon -->
+          <i class="fa-brands fa-html5"></i>
+          <h1>Post Title</h1>
+          <h2>Author</h2>
+        </div>
+        <div class="header-rightside">
+          <!-- Veritcal "more" dots/ellipsis -->
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </header>
+      <section class="postImageSection">
+        <img
+          src="anime-hacker.jpg"
+          alt="an ai-generated image of a male anime character in font of multiple computers"
+        />
+      </section>
+      <section class="postActionsSection">
+        <div class="postActions-leftside">
+          <!-- Heart / Like Icon -->
+          <i class="fa-regular fa-heart"></i>
+          <!-- Comment Bubble Icon -->
+          <i class="fa-regular fa-comment"></i>
+          <!-- Closest "paper-plane" Icon I could find -->
+          <i class="fa-regular fa-paper-plane"></i>
+        </div>
+        <div class="postActions-rightside">
+          <!-- save bookmark icon -->
+          <i class="fa-regular fa-bookmark"></i>
+        </div>
+      </section>
+      <section class="postCaptionSection">
+        <span class="postMetaData"
+          >Liked by <span class="bold">4GeeksAcademy, html5, Web</span> and
+          <span class="bold">100,000 others</span></span
+        >
+        <span class="postCaptionContent"
+          >Lorem ipsum the image above was designed by Designed by Freepik.com
+          and not by myself. sit amet consectetur adipisicing elit. Eaque
+          dignissimos illum, deserunt sint aspernatur mollitia quidem assumenda
+          cumque amet provident aliquid consequuntur voluptatem doloribus
+          animi!</span
+        >
+      </section>
     </article>
   </body>
 </html>
