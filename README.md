@@ -56,8 +56,12 @@ No build tools required — pure HTML & CSS.
 
 ![screenshot of project](https://i.ibb.co/KcZfyFHy/Screenshot-2025-08-12-at-14-01-30.png)
 
-## 📎 Useful Links
+## 👋 About the Author
 
-- GitHub Profile: https://github.com/hereisphil
-- LinkedIn: https://www.linkedin.com/in/phillipcantu
-- 4Geeks Academy (Referral Link): https://4geeksacademy.com/us/apply?ref=REFERRALQEZPTJCK-17696
+Hi! I’m Phillip Cantu, an American digital nomad, a Full Sail University web development student, and a [4Geeks Academy Full Stack Development with AI Bootcamp](https://4geeksacademy.com/us/apply?ref=REFERRALQEZPTJCK-17696). I’m passionate about creating modern, user-friendly, and practical applications that help people learn and build faster.
+
+You can find me here:
+
+- **GitHub:** [hereisphil](https://github.com/hereisphil)
+- **LinkedIn:** [PhillipCantu](https://www.linkedin.com/in/phillipcantu/)
+- **Instagram:** [@philtheotaku](https://www.instagram.com/philtheotaku/)
